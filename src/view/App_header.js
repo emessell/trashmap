@@ -9,6 +9,7 @@ class App_header extends Component{
         <a className='nav-item' href='/'>A</a>
         <a className='nav-item' href='/'>B</a>
         <a className='nav-item' href='/'>C</a>
+        <img className='logo' src={logo} alt="logo" />
       </div>
     );
   }
