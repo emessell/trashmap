@@ -1,14 +1,14 @@
 import React from 'react';
 import './style/css/Reset.css';
 import './style/css/style.min.css';
-import App_header from './view/App_header';
-import App_body from './view/App_body';
+import Header from './view/Header';
+import Body from './view/Body';
 
 function App() {
   return (
     <div className="App">
-      <App_header></App_header>
-      <App_body></App_body>
+      <Header></Header>
+      <Body></Body>
     </div>
   );
 }
