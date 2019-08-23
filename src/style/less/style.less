@@ -8,24 +8,31 @@ body{
   display: block;
   width: 100%;
   height: 100%;
-  margin: 0 auto;
 }
-.Header{
-  display: block;
-  height: 50px;
-  width: 100%;
-
-    . goHome{
-        display: inline-block;
-    }
-    .logo{
-        width: 8em;
-        margin: 0.5em 0 0 1em;
-    }
+.App{
+    width: 1000px;
+    margin: 0 auto;
 }
-
 .nav{
+    .logo{
+        width: 125px;
+        height: 38px;
+    }
+
     li{
         display: inline-block;
+        color: black;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+        font-size: 17px;
+        border-radius: 5px;
+        vertical-align: middle;
+        cursor: pointer;
+
+        &.hover:hover{
+            background-color: #ddd;
+            color: black;
+        }
     }
 }
